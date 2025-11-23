@@ -106,9 +106,8 @@ shopping-wishlist-analyzer/
 
 ## Credits
 - **Student:** Shreya Arora
-- **Registration:** 10621
-- **VIT ID:** shreya25bce
-- **Institution:** VIT Bhopal
+- **Registration:** 25bce10621
+- **Institution:** Vellore Institute of Technology, Bhopal
 - **Course:** VITyarthi Project Submission
 - **Date:** November 2025
 
