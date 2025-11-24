@@ -67,8 +67,8 @@ Backpack,1800,1,2025/11/22,Other
 ## File Structure
 ```
 shopping-wishlist-analyzer/
-├── python.py              # the main application file
 ├── README.md              # this file
+├── python.py              # the main application file
 ├── {username}_wishlist.csv # auto-generated user files
 └── /screenshots/          # the project's screenshots 
 ```
