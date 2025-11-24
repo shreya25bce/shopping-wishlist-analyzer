@@ -1,7 +1,7 @@
 # Shopping Wishlist Cost Analyzer
 
 ## Overview
-This is a Python Tkinter app to manage and analyze personal shopping wishlists with features for having a budget, category analysis, multi-user mode, and an admin mode. This project is built for VIT Bhopal VITyarthi project submission.
+this is a Python Tkinter app to manage and analyze personal shopping wishlists with features for having a budget, category analysis, multi-user mode, and an admin mode. this project is built for VIT Bhopal VITyarthi project submission.
 
 ## Features
 - **Multi-user support:** every user has their own wishlist file in a csv format
