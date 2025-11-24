@@ -1,20 +1,20 @@
 # Shopping Wishlist Cost Analyzer
 
 ## Overview
-A Python Tkinter app to manage and analyze personal shopping wishlists, with features for budgeting, category analytics, multi-user mode, and admin bill viewing. Built for VIT Bhopal VITyarthi project submission.
+This is a Python Tkinter app to manage and analyze personal shopping wishlists with features for having a budget, category analysis, multi-user mode, and an admin mode. This project is built for VIT Bhopal VITyarthi project submission.
 
 ## Features
-- **Multi-user support:** Each user has their own wishlist file (CSV format)
-- **Admin mode:** Type 'admin' at login (or press F2) to view all users' consolidated bills
-- **Item management:** Add, edit, delete wishlist items with name, price, quantity, date, and category
-- **Category analytics:** Pie chart showing cost breakdown by category (Electronics, Books, Groceries, Clothes, Stationery, Other)
-- **Budget tracking:** Enter your target budget and receive alerts if wishlist exceeds it
-- **Automatic IST date:** Auto-fills today's date (IST) if left blank when adding items
-- **Search & filter:** Search items by name or category
-- **Sortable table:** Click column headers to sort by any field
-- **Import/Export CSV:** Save and load wishlists from CSV files for data backup or sharing
-- **Dark/Light theme:** Toggle between themes without crashes, with robust error handling
-- **User-friendly UI:** Clean Tkinter interface with color-coded warnings and intuitive buttons
+- **Multi-user support:** every user has their own wishlist file in a csv format
+- **Admin mode:** if we type 'admin' at login, we can view all users' consolidated bills
+- **Item management:** add, edit, delete wishlist items with name, price, quantity, date, and category
+- **Category analytics:** a piechart showing cost breakdown by category 
+- **Budget tracking:** enter your budget and receive alerts if wishlist exceeds it by also using color-code changes
+- **Automatic IST date:** this auto fills today's date (IST) if left blank when adding items
+- **Search & filter:** to search items by name or category
+- **Sortable table:** click column headers to sort by any field
+- **Import/Export CSV:** save and load wishlists from csv files for data backup or sharing
+- **Dark/Light theme:** to toggle between themes
+- **User-friendly UI:** it uses a clean Tkinter interface with color-coded warnings and buttons
 
 ## Getting Started
 
@@ -43,19 +43,19 @@ A Python Tkinter app to manage and analyze personal shopping wishlists, with fea
 
 ### Usage Guide
 
-1. **Login:** Enter your username and optional budget
-2. **Add items:** Fill in item details and click "Add Item"
-3. **View bill:** Click "Done/Bill" to see your complete wishlist bill
-4. **Analyze:** Click "Show Category Chart" for a pie chart breakdown
-5. **Admin access:** Type 'admin' to view all users' bills
-6. **Import/Export:** Use buttons to save or load CSV data
-7. **Theme:** Switch between dark and light modes anytime
+1. **Login:** enter your username and optional budget if any
+2. **Add items:** fill in item details and click "add item" to commit
+3. **View bill:** click on "done" to see your complete wishlist bill after
+4. **Analyze:** click "show category chart" for a piechart breakdown
+5. **Admin access:** type 'admin' to view all users' bills in the admin mode
+6. **Import/Export:** use the buttons given to save or load CSV data
+7. **Theme:** switch between dark and light modes anytime
 
 ## Sample CSV Format
 
 Place a CSV file in the same directory with format:
 ```
-Item Name,Price,Quantity,Date,Category
+item name,price,quantity,date,category
 Laptop,65000,1,2025/11/23,Electronics
 Python Book,700,2,2025/11/20,Books
 Water Bottle,250,3,2025/11/19,Groceries
@@ -67,42 +67,41 @@ Backpack,1800,1,2025/11/22,Other
 ## File Structure
 ```
 shopping-wishlist-analyzer/
-├── python.py              # Main application file
-├── README.md              # This file
-├── {username}_wishlist.csv # Auto-generated user files
-└── /screenshots/          # Project screenshots (for documentation)
+├── python.py              # the main application file
+├── README.md              # this file
+├── {username}_wishlist.csv # auto-generated user files
+└── /screenshots/          # the project's screenshots 
 ```
 
 ## Project Features (Technical)
 
 ### Core Functionality
-- **OOP Design:** Single `WishlistAnalyzer` class managing all operations
-- **CSV data persistence:** Automatic save/load of user wishlists
-- **Error handling:** Robust exception handling for file I/O and user input
-- **IST timezone support:** Auto-date uses Indian Standard Time
-- **Matplotlib integration:** Dynamic pie chart generation
+- **OOP Design:** single `WishlistAnalyzer` class managing all operations
+- **CSV data persistence:** automatic save/load of user wishlists
+- **Error handling:** exception handling for file I/O and user input
+- **IST timezone support:** auto-date uses Indian Standard Time
+- **Matplotlib integration:** dynamic pie chart generation
 
 ### UI Components
-- **Tkinter widgets:** Labels, Entry fields, Buttons, Treeview (table), Combobox (dropdown)
-- **Theme system:** Dynamic color scheme switching with safe widget updates
-- **Multi-window support:** Main window + popup dialogs for editing, bills, admin views
+- **Tkinter widgets:** labels, entry fields, buttons, treeview table, combobox dropdown
+- **Theme system:** dynamic color scheme switching with safe widget updates
+- **Multi-window support:** main window + popup dialogs for editing, bills, admin views
 
 ## Keyboard Shortcuts
-- **F2:** Open admin mode
-- **Double-click item:** Edit item
-- **Right-click item:** Delete item
+- **F2:** open admin mode
+- **Double-click item:** edit item
+- **Right-click item:** delete item
 
 ## Requirements Met
-✅ Multi-user wishlist management  
-✅ Category-wise cost analytics (pie chart)  
-✅ Budget tracking with warnings  
-✅ Admin panel to view all users  
-✅ Add/Edit/Delete/Search items  
-✅ Import/Export CSV functionality  
-✅ IST date auto-fill  
-✅ Dark/Light theme toggle  
-✅ Robust error handling  
-✅ Original Python code (no AI generation)  
+✅ multi-user wishlist management  
+✅ category wise cost analytics like a piechart 
+✅ tracking on budget with warnings  
+✅ admin mode to view all users' and their respective bills 
+✅ add/edit/delete/search items  
+✅ import/export csv   
+✅ ist date auto-fill  
+✅ dark/light theme toggle  
+✅ error handling  
 
 ## Credits
 - **Student:** Shreya Arora
