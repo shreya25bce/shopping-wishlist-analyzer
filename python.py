@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from datetime import datetime, timedelta, timezone
 
 def get_today_ist():
-    # IST is UTC+5:30
     ist = timezone(timedelta(hours=5, minutes=30))
     return datetime.now(ist).strftime("%Y/%m/%d")
 
@@ -52,7 +51,6 @@ class WishlistAnalyzer:
         except Exception: pass
 
     def set_widget_theme(self, widget):
-        # Only apply bg/fg where possible
         for child in widget.winfo_children():
             if isinstance(child, (tk.Label, tk.Button, tk.Entry, tk.Toplevel, tk.Frame)):
                 try: child.configure(bg=self.bg, fg=self.entry_fg)
